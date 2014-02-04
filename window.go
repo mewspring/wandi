@@ -4,6 +4,8 @@ package wde
 
 import (
 	"image/color"
+
+	"github.com/mewmew/we"
 )
 
 // A Window represents a graphical window capable of handling draw operations
@@ -21,5 +23,5 @@ type Window interface {
 	Clear(c color.Color) (err error)
 	// PollEvent returns a pending event from the event queue or nil if the queue
 	// was empty.
-	PollEvent() (event Event)
+	PollEvent() (event we.Event)
 }
