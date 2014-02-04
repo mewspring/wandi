@@ -1,8 +1,8 @@
 wandi
 =====
 
-This package specifies common interfaces used for window creation, drawing and
-event handling. It is heavily inspired by [go.wde][].
+This package specifies common interfaces used for window creation, event
+handling and image drawing. It is heavily inspired by [go.wde][].
 
 [go.wde]: https://github.com/skelterjohn/go.wde
 
