@@ -1,25 +1,25 @@
-wde
-===
+wandi
+=====
 
 This package specifies common interfaces used for window creation, drawing and
 event handling. It is heavily inspired by [go.wde][].
 
-[go.wde]: https://github.com/skelterjohn/go.wde/
+[go.wde]: https://github.com/skelterjohn/go.wde
 
 Documentation
 -------------
 
 Documentation provided by GoDoc.
 
-- [wde][]: specifies common interfaces used for window creation, drawing and
+- [wandi][]: specifies common interfaces used for window creation, drawing and
 event handling.
 
-[wde]: http://godoc.org/github.com/mewmew/wde
+[wandi]: http://godoc.org/github.com/mewmew/wandi
 
 Implementations
 ---------------
 
-The current implementations of [wde][] are listed below:
+The current implementations of [wandi][] are listed below:
 
 - [SDL][sdl/win]: not yet implemented.
 - [SFML][sfml/win]: not yet implemented.

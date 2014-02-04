@@ -1,4 +1,4 @@
-package wde
+package wandi
 
 import (
 	"image"

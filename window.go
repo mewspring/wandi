@@ -1,6 +1,6 @@
-// Package wde specifies common interfaces used for window creation, drawing and
-// event handling.
-package wde
+// Package wandi specifies common interfaces used for window creation, event
+// handling and image drawing.
+package wandi
 
 import (
 	"image/color"
