@@ -27,11 +27,11 @@ Implementations
 
 The current implementations of [wandi][] are listed below:
 
-- [SDL][sdl/win]: not yet implemented.
-- [SFML][sfml/win]: not yet implemented.
+- [SDL][sdl/window]: not yet implemented.
+- [SFML][sfml/window]: not yet implemented.
 
-[sdl/win]: http://godoc.org/github.com/mewmew/sdl/win
-[sfml/win]: http://godoc.org/github.com/mewmew/sfml/win
+[sdl/window]: http://godoc.org/github.com/mewmew/sdl/window
+[sfml/window]: http://godoc.org/github.com/mewmew/sfml/window
 
 public domain
 -------------
