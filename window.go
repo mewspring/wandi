@@ -22,6 +22,7 @@ type Window interface {
 	// Clear clears the screen and fills it with the provided color.
 	Clear(c color.Color) (err error)
 	// PollEvent returns a pending event from the event queue or nil if the queue
-	// was empty.
+	// was empty. Note that more than one event may be present in the event
+	// queue.
 	PollEvent() (event we.Event)
 }
