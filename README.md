@@ -19,17 +19,37 @@ Documentation provided by GoDoc.
 
 - [wandi][]: specifies common interfaces used for window creation, drawing and
 event handling.
+   - [wandiutil][wandi/wandiutil]: provides utility interfaces which facilitates
+   the composition of wandi interfaces.
 
 [wandi]: http://godoc.org/github.com/mewmew/wandi
+[wandi/wandiutil]: http://godoc.org/github.com/mewmew/wandi/wandiutil
 
 Implementations
 ---------------
 
-The current implementations of [wandi][] are listed below:
+The current implementations of [wandi.Image][] are listed below:
 
-- [SDL][sdl/window]: not yet implemented.
-- [SFML][sfml/window]: not yet implemented.
+- [SDL][] backend
+   - [texture][sdl/texture]: not yet implemented.
+- [SFML][] backend
+   - [texture][sfml/texture]: handles hardware accelerated image drawing
+   operations.
 
+[wandi.Image]: http://godoc.org/github.com/mewmew/wandi#Image
+[SDL]: http://www.libsdl.org/
+[SFML]: http://www.sfml-dev.org/
+[sdl/texture]: http://godoc.org/github.com/mewmew/sdl/texture
+[sfml/texture]: http://godoc.org/github.com/mewmew/sfml/texture
+
+The current implementations of [wandi.Window][] are listed below:
+
+- [SDL][] backend
+   - [window][sdl/window]: not yet implemented.
+- [SFML][] backend
+   - [window][sfml/window]: not yet implemented.
+
+[wandi.Window]: http://godoc.org/github.com/mewmew/wandi#Window
 [sdl/window]: http://godoc.org/github.com/mewmew/sdl/window
 [sfml/window]: http://godoc.org/github.com/mewmew/sfml/window
 

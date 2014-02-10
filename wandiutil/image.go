@@ -1,5 +1,5 @@
-// Package wandiutil provides utility interfaces which facilitates interface
-// composition of wandi images.
+// Package wandiutil provides utility interfaces which facilitates the
+// composition of wandi interfaces.
 package wandiutil
 
 import (
