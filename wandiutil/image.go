@@ -1,34 +1,26 @@
-// Package wandiutil specifies utility interfaces for image drawing.
+// Package wandiutil provides utility interfaces which facilitates interface
+// composition of wandi images.
 package wandiutil
 
 import (
+	"image"
 	"image/color"
-
-	"github.com/mewmew/wandi"
 )
 
-// ImageFreer is the interface that groups the wandi.Image interface with the
-// Free method.
-type ImageFreer interface {
-	wandi.Image
-	// Free frees the image.
-	Free()
-}
-
-// ImageClearer is the interface that groups the wandi.Image interface with the
-// Clear method.
-type ImageClearer interface {
-	wandi.Image
+// Clearer is the interface that wraps the Clear method.
+type Clearer interface {
 	// Clear clears the image and fills it with the provided color.
 	Clear(c color.Color)
 }
 
-// ImageClearFreer is the interface that groups the wandi.Image interface with
-// the Clear and Free methods.
-type ImageClearFreer interface {
-	wandi.Image
-	// Clear clears the image and fills it with the provided color.
-	Clear(c color.Color)
+// Freer is the interface that wraps the Free method.
+type Freer interface {
 	// Free frees the image.
 	Free()
+}
+
+// Imager is the interface that wraps the Image method.
+type Imager interface {
+	// Image returns an image.Image representation of the image.
+	Image() (img image.Image, err error)
 }
