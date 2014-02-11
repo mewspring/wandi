@@ -47,7 +47,7 @@ The current implementations of [wandi.Window][] are listed below:
 - [SDL][] backend
    - [window][sdl/window]: not yet implemented.
 - [SFML][] backend
-   - [window][sfml/window]: not yet implemented.
+   - [window][sfml/window]: handles window creation, drawing and events.
 
 [wandi.Window]: http://godoc.org/github.com/mewmew/wandi#Window
 [sdl/window]: http://godoc.org/github.com/mewmew/sdl/window
