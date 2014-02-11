@@ -18,7 +18,7 @@ type Window interface {
 	// The Image interface is implemented by the window.
 	Image
 	// Update displays window rendering updates on the screen.
-	Update() (err error)
+	Update()
 	// Clear clears the window and fills it with the provided color.
 	Clear(c color.Color)
 	// PollEvent returns a pending event from the event queue or nil if the queue
