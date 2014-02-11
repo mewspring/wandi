@@ -33,8 +33,7 @@ The current implementations of [wandi.Image][] are listed below:
 - [SDL][] backend
    - [texture][sdl/texture]: not yet implemented.
 - [SFML][] backend
-   - [texture][sfml/texture]: handles hardware accelerated image drawing
-   operations.
+   - [texture][sfml/texture]: handles hardware accelerated image drawing.
 
 [wandi.Image]: http://godoc.org/github.com/mewmew/wandi#Image
 [SDL]: http://www.libsdl.org/
