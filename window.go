@@ -15,6 +15,8 @@ type Window interface {
 	Close()
 	// SetTitle sets the title of the window.
 	SetTitle(title string)
+	// The Drawable interface is implemented by the window.
+	Drawable
 	// The Image interface is implemented by the window.
 	Image
 	// Update displays window rendering updates on the screen.
