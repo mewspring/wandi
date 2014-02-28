@@ -27,4 +27,6 @@ type Window interface {
 	// was empty. Note that more than one event may be present in the event
 	// queue.
 	PollEvent() (event we.Event)
+	// Show or hide the mouse cursor. It's visible by default.
+	SetMouseCursorVisible(visible bool)
 }
