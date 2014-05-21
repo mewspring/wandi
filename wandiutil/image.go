@@ -10,6 +10,7 @@ import (
 // Filler is the interface that wraps the Fill method.
 type Filler interface {
 	// Fill fills the entire image with the provided color.
+	Fill(c color.Color)
 }
 
 // Freer is the interface that wraps the Free method.
