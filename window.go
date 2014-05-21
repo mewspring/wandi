@@ -3,8 +3,6 @@
 package wandi
 
 import (
-	"image/color"
-
 	"github.com/mewmew/we"
 )
 
