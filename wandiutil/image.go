@@ -7,10 +7,9 @@ import (
 	"image/color"
 )
 
-// Clearer is the interface that wraps the Clear method.
-type Clearer interface {
-	// Clear clears the image and fills it with the provided color.
-	Clear(c color.Color)
+// Filler is the interface that wraps the Fill method.
+type Filler interface {
+	// Fill fills the entire image with the provided color.
 }
 
 // Freer is the interface that wraps the Free method.
