@@ -21,8 +21,6 @@ type Window interface {
 	Image
 	// Display displays what has been rendered so far to the window.
 	Display()
-	// Clear clears the window and fills it with the provided color.
-	Clear(c color.Color)
 	// PollEvent returns a pending event from the event queue or nil if the queue
 	// was empty. Note that more than one event may be present in the event
 	// queue.
