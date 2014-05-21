@@ -19,8 +19,8 @@ type Window interface {
 	Drawable
 	// The Image interface is implemented by the window.
 	Image
-	// Update displays window rendering updates on the screen.
-	Update()
+	// Display displays what has been rendered so far to the window.
+	Display()
 	// Clear clears the window and fills it with the provided color.
 	Clear(c color.Color)
 	// PollEvent returns a pending event from the event queue or nil if the queue
