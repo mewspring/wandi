@@ -13,10 +13,12 @@ type Window interface {
 	Close()
 	// SetTitle sets the title of the window.
 	SetTitle(title string)
+	// Width returns the width of the window.
+	Width() int
+	// Height returns the height of the window.
+	Height() int
 	// The Drawable interface is implemented by the window.
 	Drawable
-	// The Image interface is implemented by the window.
-	Image
 	// Display displays what has been rendered so far to the window.
 	Display()
 	// PollEvent returns a pending event from the event queue or nil if the queue
