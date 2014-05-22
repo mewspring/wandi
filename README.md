@@ -30,22 +30,20 @@ Implementations
 
 The current implementations of [wandi.Drawable][] are listed below:
 
-- [SDL][] backend
+- SDL backend
    - [texture.Drawable][sdl/texture#Drawable]: not yet implemented.
-- [SFML][] backend
+- SFML backend
    - [texture.Drawable][sfml/texture#Drawable]: drawable GPU texture.
 
 [wandi.Drawable]: http://godoc.org/github.com/mewmew/wandi#Drawable
-[SDL]: http://www.libsdl.org/
-[SFML]: http://www.sfml-dev.org/
 [sdl/texture#Drawable]: http://godoc.org/github.com/mewmew/sdl/texture#Drawable
 [sfml/texture#Drawable]: http://godoc.org/github.com/mewmew/sfml/texture#Drawable
 
 The current implementations of [wandi.Image][] are listed below:
 
-- [SDL][] backend
+- SDL backend
    - [texture.Image][sdl/texture#Image]: not yet implemented.
-- [SFML][] backend
+- SFML backend
    - [texture.Image][sfml/texture#Image]: read-only GPU texture.
 
 [wandi.Image]: http://godoc.org/github.com/mewmew/wandi#Image
@@ -54,9 +52,9 @@ The current implementations of [wandi.Image][] are listed below:
 
 The current implementations of [wandi.Window][] are listed below:
 
-- [SDL][] backend
+- SDL backend
    - [window.Window][sdl/window#Window]: not yet implemented.
-- [SFML][] backend
+- SFML backend
    - [window.Window][sfml/window#Window]: graphical window capable of handling
    draw operations and window events.
 
