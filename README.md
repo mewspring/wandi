@@ -28,29 +28,41 @@ event handling.
 Implementations
 ---------------
 
+The current implementations of [wandi.Drawable][] are listed below:
+
+- [SDL][] backend
+   - [texture.Drawable][sdl/texture#Drawable]: not yet implemented.
+- [SFML][] backend
+   - [texture.Drawable][sfml/texture#Drawable]: drawable GPU texture.
+
+[wandi.Drawable]: http://godoc.org/github.com/mewmew/wandi#Drawable
+[SDL]: http://www.libsdl.org/
+[SFML]: http://www.sfml-dev.org/
+[sdl/texture#Drawable]: http://godoc.org/github.com/mewmew/sdl/texture#Drawable
+[sfml/texture#Drawable]: http://godoc.org/github.com/mewmew/sfml/texture#Drawable
+
 The current implementations of [wandi.Image][] are listed below:
 
 - [SDL][] backend
-   - [texture][sdl/texture]: not yet implemented.
+   - [texture.Image][sdl/texture#Image]: not yet implemented.
 - [SFML][] backend
-   - [texture][sfml/texture]: handles hardware accelerated image drawing.
+   - [texture.Image][sfml/texture#Image]: read-only GPU texture.
 
 [wandi.Image]: http://godoc.org/github.com/mewmew/wandi#Image
-[SDL]: http://www.libsdl.org/
-[SFML]: http://www.sfml-dev.org/
-[sdl/texture]: http://godoc.org/github.com/mewmew/sdl/texture
-[sfml/texture]: http://godoc.org/github.com/mewmew/sfml/texture
+[sdl/texture#Image]: http://godoc.org/github.com/mewmew/sdl/texture#Image
+[sfml/texture#Image]: http://godoc.org/github.com/mewmew/sfml/texture#Image
 
 The current implementations of [wandi.Window][] are listed below:
 
 - [SDL][] backend
-   - [window][sdl/window]: not yet implemented.
+   - [window.Window][sdl/window#Window]: not yet implemented.
 - [SFML][] backend
-   - [window][sfml/window]: handles window creation, drawing and events.
+   - [window.Window][sfml/window#Window]: graphical window capable of handling
+   draw operations and window events.
 
 [wandi.Window]: http://godoc.org/github.com/mewmew/wandi#Window
-[sdl/window]: http://godoc.org/github.com/mewmew/sdl/window
-[sfml/window]: http://godoc.org/github.com/mewmew/sfml/window
+[sdl/window#Window]: http://godoc.org/github.com/mewmew/sdl/window#Window
+[sfml/window#Window]: http://godoc.org/github.com/mewmew/sfml/window#Window
 
 public domain
 -------------
