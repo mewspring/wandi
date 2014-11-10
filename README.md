@@ -7,6 +7,10 @@ subject to change. The documentation can be inaccurate.
 wandi
 =====
 
+[![Build Status](https://travis-ci.org/mewmew/wandi.svg?branch=master)](https://travis-ci.org/mewmew/wandi)
+[![Coverage Status](https://img.shields.io/coveralls/mewmew/wandi.svg)](https://coveralls.io/r/mewmew/wandi?branch=master)
+[![GoDoc](https://godoc.org/github.com/mewmew/wandi?status.svg)](https://godoc.org/github.com/mewmew/wandi)
+
 This package specifies common interfaces used for window creation, event
 handling and image drawing. It is heavily inspired by [go.wde][].
 
