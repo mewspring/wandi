@@ -3,7 +3,7 @@
 package wandi
 
 import (
-	"github.com/mewmew/we"
+	"github.com/mewspring/we"
 )
 
 // A Window represents a graphical window capable of handling draw operations
